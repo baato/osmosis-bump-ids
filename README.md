@@ -20,12 +20,12 @@ Alternatively, you can also download an existing release, and use the following 
 ```
 mkdir -p ~/.openstreetmap/osmosis/plugins && \
     cd ~/.openstreetmap/osmosis/plugins && \
-    wget https://github.com/baato/osmosis-remove-author/releases/download/v1.0.0/osmosis-remove-author-1.0.0.tar.gz && \
-    mkdir osmosis-remove-author && \
-    tar xvzf osmosis-remove-author-1.0.0.tar.gz -C ./osmosis-remove-author && \
-    cd osmosis-remove-author && \
-    zip -r ../osmosis-remove-author.zip * && \
-    cd .. &&  rm -rf osmosis-remove-author *.tar.gz 
+    wget https://github.com/baato/osmosis-bump-ids/releases/download/v1.0.0/osmosis-bump-ids-1.0.0.tar.gz && \
+    mkdir osmosis-bump-ids && \
+    tar xvzf osmosis-bump-ids-1.0.0.tar.gz -C ./osmosis-bump-ids && \
+    cd osmosis-bump-ids && \
+    zip -r ../osmosis-bump-ids.zip * && \
+    cd .. &&  rm -rf osmosis-bump-ids *.tar.gz 
 
 ```
 
